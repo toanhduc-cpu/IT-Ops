@@ -1,0 +1,42 @@
+================================================================================
+WORKFLOW: Receive updates for events in Jira
+================================================================================
+
+📋 BASIC INFORMATION
+------------------------------
+ID: 569
+Name: Receive updates for events in Jira
+Total Views: 5,187
+Created At: 2020-07-29T13:44:42.110Z
+Purchase URL: None
+
+👤 AUTHOR INFORMATION
+------------------------------
+Name: amudhan
+Username: sm-amudhan
+Verified: ✅ Yes
+
+📝 DESCRIPTION
+------------------------------
+Companion workflow for Jira Trigger node docs
+
+📊 RAW DATA (JSON)
+------------------------------
+{
+  "id": 569,
+  "name": "Receive updates for events in Jira",
+  "totalViews": 5187,
+  "purchaseUrl": null,
+  "user": {
+    "id": 5269,
+    "name": "amudhan",
+    "username": "sm-amudhan",
+    "bio": null,
+    "verified": true,
+    "links": "[]",
+    "avatar": "https://gravatar.com/avatar/7ee0febc0cbec2f1f6b24ddec3c4322e27c82c91dc729cfecf6ce12bfddd058d?r=pg&d=retro&size=200"
+  },
+  "description": "Companion workflow for Jira Trigger node docs\n\n",
+  "createdAt": "2020-07-29T13:44:42.110Z",
+  "nodes": []
+}
