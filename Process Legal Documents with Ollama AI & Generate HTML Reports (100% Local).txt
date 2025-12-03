@@ -1,0 +1,198 @@
+================================================================================
+WORKFLOW: Process Legal Documents with Ollama AI & Generate HTML Reports (100% Local)
+================================================================================
+
+📋 BASIC INFORMATION
+------------------------------
+ID: 4869
+Name: Process Legal Documents with Ollama AI & Generate HTML Reports (100% Local)
+Total Views: 94
+Created At: 2025-06-11T08:09:42.500Z
+Purchase URL: https://checkout.dodopayments.com/buy/pdt_SDSkimsJ6yntyoAbsbyyl?quantity=1&redirect_url=https://dropbox.com%2Fscl%2Ffi%2Fp7gsduak5m5v80oav9836%2FLocal_LAW.json%3Frlkey%3Dbvlo3b6k1cqmob3v012nw628q%26st%3Dxt0dpz8c%26dl%3D0
+
+👤 AUTHOR INFORMATION
+------------------------------
+Name: Rish
+Username: b2brish
+Verified: ✅ Yes
+Bio: AI & Automation Consultant. Sharing cool stuff on my YouTube Channel
+Links: https://www.youtube.com/@b2brish
+
+📝 DESCRIPTION
+------------------------------
+TUTORIAL VIDEO
+
+Key Features
+🧠 AI-Powered Analysis - Use any Ollama-compatible model (Llama, Mistral, CodeLlama, etc.)
+🔧 Flexible Input - Supports PDFs, Word docs, text files, and more
+📊 Structured Output - Generates clean HTML reports and summaries
+🔄 Automated Pipeline - Set-and-forget document processing
+
+Perfect For:
+Enterprise Environments - Where data privacy is paramount
+Research Organizations - Processing sensitive or proprietary documents
+Small Teams - Cost-effective alternative to cloud AI services
+Compliance-Heavy Industries - Healthcare, finance, legal where data must stay local
+Developers - Experimenting with different open-source models
+Content Teams - Batch processing large document libraries
+
+Prerequisites
+
+n8n instance (self-hosted recommended)
+Ollama server running locally
+Compatible AI models downloaded (Llama 3.1, Mistral, etc.)
+Local file system access
+Documents to process
+
+Customization Ideas
+🎯 Multi-Model Pipeline - Route different document types to specialized models
+🌐 Language Detection - Automatically select appropriate language models
+⚡ Batch Processing - Handle multiple files simultaneously
+🎖️ Quality Scoring - Use multiple models to cross-validate outputs
+✏️ Custom Prompts - Tailor analysis for specific document types or industries
+🔗 Integration Hooks - Connect to databases, CMS, or notification systems
+
+Why Choose Local Processing?
+🏆 Data Sovereignty - Your sensitive documents never leave your control
+💰 Predictable Costs - No surprise API bills or usage limits
+🎨 Customization Freedom - Fine-tune models for your specific use cases
+📶 Offline Capability - Works without internet connectivity
+✅ Compliance Ready - Meets strict data residency requirements
+
+Conclusion
+This workflow represents the future of document processing - combining the convenience of automation with the security and control of local AI models. It's particularly valuable for organizations that need to balance AI capabilities with strict data governance requirements.
+Ready to build your own private AI document processing pipeline? This workflow shows you exactly how to get started with local Ollama integration! 🏠🤖
+
+🔧 NODES USED
+------------------------------
+• AI Agent - Categories: AI, Langchain
+• Ollama Chat Model - Categories: AI, Langchain
+
+Total Nodes: 2
+
+📊 RAW DATA (JSON)
+------------------------------
+{
+  "id": 4869,
+  "name": "Process Legal Documents with Ollama AI & Generate HTML Reports (100% Local)",
+  "totalViews": 94,
+  "price": 99,
+  "purchaseUrl": "https://checkout.dodopayments.com/buy/pdt_SDSkimsJ6yntyoAbsbyyl?quantity=1&redirect_url=https://dropbox.com%2Fscl%2Ffi%2Fp7gsduak5m5v80oav9836%2FLocal_LAW.json%3Frlkey%3Dbvlo3b6k1cqmob3v012nw628q%26st%3Dxt0dpz8c%26dl%3D0",
+  "user": {
+    "id": 94647,
+    "name": "Rish",
+    "username": "b2brish",
+    "bio": "AI & Automation Consultant. Sharing cool stuff on my YouTube Channel",
+    "verified": true,
+    "links": "[\"https://www.youtube.com/@b2brish\"]",
+    "avatar": "https://gravatar.com/avatar/b05516de27e6605841bf158a0911807e73ad2a4b0016a301ff22343c884e6268?r=pg&d=retro&size=200"
+  },
+  "description": "\n\nTUTORIAL VIDEO\n\nKey Features\n🧠 AI-Powered Analysis - Use any Ollama-compatible model (Llama, Mistral, CodeLlama, etc.)\n🔧 Flexible Input - Supports PDFs, Word docs, text files, and more\n📊 Structured Output - Generates clean HTML reports and summaries\n🔄 Automated Pipeline - Set-and-forget document processing\n\nPerfect For:\nEnterprise Environments - Where data privacy is paramount\nResearch Organizations - Processing sensitive or proprietary documents\nSmall Teams - Cost-effective alternative to cloud AI services\nCompliance-Heavy Industries - Healthcare, finance, legal where data must stay local\nDevelopers - Experimenting with different open-source models\nContent Teams - Batch processing large document libraries\n\nPrerequisites\n\nn8n instance (self-hosted recommended)\nOllama server running locally\nCompatible AI models downloaded (Llama 3.1, Mistral, etc.)\nLocal file system access\nDocuments to process\n\nCustomization Ideas\n🎯 Multi-Model Pipeline - Route different document types to specialized models\n🌐 Language Detection - Automatically select appropriate language models\n⚡ Batch Processing - Handle multiple files simultaneously\n🎖️ Quality Scoring - Use multiple models to cross-validate outputs\n✏️ Custom Prompts - Tailor analysis for specific document types or industries\n🔗 Integration Hooks - Connect to databases, CMS, or notification systems\n\nWhy Choose Local Processing?\n🏆 Data Sovereignty - Your sensitive documents never leave your control\n💰 Predictable Costs - No surprise API bills or usage limits\n🎨 Customization Freedom - Fine-tune models for your specific use cases\n📶 Offline Capability - Works without internet connectivity\n✅ Compliance Ready - Meets strict data residency requirements\n\nConclusion\nThis workflow represents the future of document processing - combining the convenience of automation with the security and control of local AI models. It's particularly valuable for organizations that need to balance AI capabilities with strict data governance requirements.\nReady to build your own private AI document processing pipeline? This workflow shows you exactly how to get started with local Ollama integration! 🏠🤖",
+  "createdAt": "2025-06-11T08:09:42.500Z",
+  "nodes": [
+    {
+      "id": 1119,
+      "icon": "fa:robot",
+      "name": "@n8n/n8n-nodes-langchain.agent",
+      "codex": {
+        "data": {
+          "alias": [
+            "LangChain",
+            "Chat",
+            "Conversational",
+            "Plan and Execute",
+            "ReAct",
+            "Tools"
+          ],
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/"
+              }
+            ]
+          },
+          "categories": [
+            "AI",
+            "Langchain"
+          ],
+          "subcategories": {
+            "AI": [
+              "Agents",
+              "Root Nodes"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "AI Agent",
+        "color": "#404040"
+      },
+      "iconData": {
+        "icon": "robot",
+        "type": "icon"
+      },
+      "displayName": "AI Agent",
+      "typeVersion": 2,
+      "nodeCategories": [
+        {
+          "id": 25,
+          "name": "AI"
+        },
+        {
+          "id": 26,
+          "name": "Langchain"
+        }
+      ]
+    },
+    {
+      "id": 1151,
+      "icon": "file:ollama.svg",
+      "name": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "codex": {
+        "data": {
+          "resources": {
+            "primaryDocumentation": [
+              {
+                "url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/"
+              }
+            ]
+          },
+          "categories": [
+            "AI",
+            "Langchain"
+          ],
+          "subcategories": {
+            "AI": [
+              "Language Models",
+              "Root Nodes"
+            ],
+            "Language Models": [
+              "Chat Models (Recommended)"
+            ]
+          }
+        }
+      },
+      "group": "[\"transform\"]",
+      "defaults": {
+        "name": "Ollama Chat Model"
+      },
+      "iconData": {
+        "type": "file",
+        "fileBuffer": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNDEuMzMzIiBoZWlnaHQ9IjM0MS4zMzMiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDE4MSAyNTYiPjxnIGZpbGw9IiM3RDdEODciPjxwYXRoIGQ9Ik0zNy43IDE5LjVjLTUuMiAxLjgtOC4zIDQuOS0xMS43IDExLjYtNC41IDguOS02LjIgMTkuMi01LjggMzUuNWwuMyAxNC4yLTUuOCA2LjFjLTE0LjggMTUuNS0xOC41IDM4LjctOS4yIDU3LjRsMy40IDYuOS0yIDQuNGMtMy40IDguMi01IDE2LjQtNSAyNi4zIDAgMTAuOCAxLjggMTkgNS44IDI2LjJsMi42IDQuOC0yLjEgNC45Yy0xLjIgMi43LTIuNiA3LjEtMy4yIDkuOC0xLjQgNi4yLTEuNSAyMi4xLS4xIDI1LjcgMSAyLjYgMS40IDIuNyA3LjYgMi43IDcuMyAwIDcgLjQgNS4zLTguNi0xLjUtOC4yLjItMTguOCA0LjItMjYuNiAzLjctNyAzLjgtMTAuNC41LTE0LjgtNC43LTYuNC02LjgtMTMuNi02LjktMjQtLjEtMTAuMyAxLjQtMTYgNi42LTI2LjEgMy4xLTYuMSAyLjktOC43LTEtMTIuMi0xLjEtMS0zLjEtNC4yLTQuMy03LTEuOS00LjItMi40LTYuOS0yLjMtMTQuMiAwLTExLjQgMi41LTE4LjMgOS41LTI2IDctNy42IDE0LjItMTEgMjMuOS0xMS4yIDQuMSAwIDcuOC0uMiA4LjItLjIuNC0uMSAxLjctMi4yIDIuOS00LjcgMy01LjkgOS42LTExLjkgMTYuNy0xNS4yIDQuOS0yLjMgNy0yLjcgMTQuNy0yLjcgNy45IDAgOS43LjQgMTQuOSAyLjkgNi44IDMuMyAxMy4zIDkuNCAxNS45IDE0LjggMSAyIDIuMyA0LjEgMyA0LjUuNi40IDQuNi44IDguNy44IDYuNy4xIDguMy41IDE0IDMuNiAxMi4zIDYuOCAxOS4zIDE4LjcgMTkuMyAzMy40LjEgNi43LS40IDktMi43IDE0LjItMS42IDMuNS0zLjUgNi44LTQuMyA3LjUtMy40IDIuOC0zLjUgNS44LS41IDExLjcgNS4yIDEwLjEgNi43IDE1LjggNi42IDI2LjEtLjEgMTAuNC0yLjIgMTcuNi02LjkgMjQtMy4zIDQuNC0zLjIgNy44LjUgMTQuOCA0IDcuOCA1LjcgMTguNCA0LjIgMjYuNi0xLjcgOS0yIDguNiA1LjMgOC42IDYuMiAwIDYuNi0uMSA3LjYtMi43IDEuNC0zLjYgMS4zLTE5LjUtLjEtMjUuNy0uNi0yLjctMi03LjEtMy4yLTkuOGwtMi4xLTQuOSAyLjYtNC44YzcuNi0xMy45IDcuOS0zNS45LjYtNTIuOGwtMi00LjcgMi41LTQuNmM5LjktMTguMyA2LjQtNDMuOS04LjEtNTkuMWwtNS44LTYuMS4zLTE0LjJjLjQtMTYuNC0xLjMtMjYuNi01LjgtMzUuNy02LjQtMTIuNi0xNy4yLTE1LjktMjYuMy03LjktNS40IDQuNy05LjIgMTMuOC0xMi4zIDI5LjgtLjMgMS40LTEgMi4yLTEuNyAxLjgtMTguMi04LTI5LjctOC41LTQ0LjMtMi4xTDY1IDU0LjlsLS40LTIuMkM2MSAzNC4yIDU2LjEgMjQuMiA0OSAyMC41Yy00LjMtMi4xLTcuNC0yLjQtMTEuMy0xbTcuNyAxNi44YzQuMiA3LjEgOC4xIDMwLjEgNS43IDMzLjYtLjUuOC0zLjEgMS42LTUuOCAxLjgtMi42LjItNi4yLjgtOCAxLjNsLTMuMS44LS43LTQuOWMtLjgtNS45LjItMTcuMiAyLjItMjQuOEMzNy4xIDM4LjQgNDAuNSAzMiA0MiAzMmMuNSAwIDIgMS45IDMuNCA0LjNtOTYuNS0xYzQgNi41IDYuOSAyMy45IDUuNiAzMy42bC0uNyA0LjktMy4xLS44Yy0xLjgtLjUtNS40LTEuMS04LTEuMy0yLjctLjItNS4zLTEtNS44LTEuOC0xLjItMS43LS4zLTE0LjEgMS43LTIyLjkgMS41LTYuNCA1LjctMTUgNy40LTE1IC40IDAgMS44IDEuNSAyLjkgMy4zIi8+PHBhdGggZD0iTTc3LjggMTE5LjljLTcuMyAyLjQtMTEuNiA1LjEtMTYuNSAxMC40LTUuNSA2LTcuNiAxMi03LjEgMjAuMS41IDcuNiAzLjUgMTIuOSAxMC42IDE4LjMgNi4yIDQuNyAxMi43IDYuMyAyNS43IDYuMyAxNy4yIDAgMjUuOC0zLjYgMzIuOS0xMy44IDQuMi01LjkgNC44LTE1LjUgMS42LTIzLTIuOS02LjgtMTEuMS0xNC4zLTE4LjgtMTcuMy04LTMuMS0yMC43LTMuNi0yOC40LTFtMjUuNyAxMGMxNi4xIDcuMSAxOS40IDIzLjIgNi42IDMxLjgtNC45IDMuMy05LjQgNC4zLTE5LjYgNC4zcy0xNC43LTEtMTkuNi00LjNjLTE3LjgtMTItMy4yLTM1LjYgMjEuMS0zNC4zIDMuOS4yIDguNiAxLjIgMTEuNSAyLjUiLz48cGF0aCBkPSJNODMuOCAxNDAuMWMtMi41IDEuNC0yLjIgNC40LjcgNi43IDIgMS42IDIuNCAyLjYgMS45IDQuOS0uNyAzLjYgMS41IDUuOCA1LjEgNC45IDIuMS0uNSAyLjUtMS4yIDIuNS00LjYgMC0yLjkuNS00LjIgMi01IDIuNy0xLjUgMi43LTYuNiAwLTcuNS0xLS4zLTIuOC0uMS00IC41LTEuNC43LTIuNi44LTMuOSAwLTIuMy0xLjItMi4yLTEuMi00LjMuMW0tNDQuMS0xOC45Yy0uOS43LTIuMyAzLTMuMiA1LTIuMSA1LjMtLjEgMTAuMyA0LjcgMTEuNiA0LjMgMS4xIDYgLjYgOS4yLTIuNyA0LTQuMSA0LjMtOC4xIDEuMS0xMS45LTIuMS0yLjUtMy40LTMuMi02LjQtMy4yLTIgMC00LjUuNi01LjQgMS4ybTg5LjggMmMtMy4yIDMuOC0yLjkgNy44IDEuMSAxMS45IDMuMiAzLjMgNC45IDMuOCA5LjIgMi43IDQuOS0xLjMgNi44LTYuMiA0LjYtMTEuOC0xLjktNC43LTMuOC02LTguNy02LTIuNyAwLTQuMS43LTYuMiAzLjIiLz48L2c+PC9zdmc+"
+      },
+      "displayName": "Ollama Chat Model",
+      "typeVersion": 1,
+      "nodeCategories": [
+        {
+          "id": 25,
+          "name": "AI"
+        },
+        {
+          "id": 26,
+          "name": "Langchain"
+        }
+      ]
+    }
+  ]
+}
